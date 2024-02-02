@@ -181,6 +181,13 @@ button:focus {
     }
     .nav-link{
         font-size:1.8rem;
+        transition: background-color 1s ease;
+        border-radius: 10px;
+        padding: .5rem;
+    }
+    .nav-link:hover{
+        background-color: var(--secondary-color);
+        color: var(--primary-color);
     }
 }
 
@@ -237,6 +244,11 @@ button:focus {
     .find-us{
         padding: .8rem 10rem;
         font-size: 2rem;
+        transition: background-color 1s ease;
+    }
+    .find-us:hover{
+        background-color: var(--secondary-color);
+        color: var(--primary-color);
     }
 }
 
