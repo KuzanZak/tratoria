@@ -103,7 +103,8 @@ button:focus {
 }
 
 .main>section{
-    min-height: 70vh;
+    min-height: 50vh;
+    border: 1px solid black;
 }
 
 .container{
@@ -223,11 +224,6 @@ button:focus {
 }
 
 /* Carte */ 
-.menu{
-    border: 1px solid black;
-    padding-top: 1rem;
-    padding-bottom: 3rem;
-}
 .menu>h2, .menu-list>li>h2{
     text-align: center;
     color: var(--third-color);
@@ -254,12 +250,15 @@ button:focus {
 .menu-list>li>h2{
     margin-top: .5rem;
 }
-
+    
 .menu-list>li>p{
     font-size: 1.2rem;
 }
 
 @media screen and (min-width: 520px){
+    .menu>h2{
+        padding-top: 1rem;
+    }
     .menu-list{
         display: flex;
         margin-left: 1.5rem;
@@ -268,6 +267,9 @@ button:focus {
         width: 90%;
         height: 80%;
     }
+    .menu-list>li>h2{
+        margin-top: .5rem;
+    }
     .menu-list>li{  
         align-items: flex-start;
         justify-content: center;
@@ -275,6 +277,9 @@ button:focus {
     
 }   
 @media screen and (min-width: 768px){
+    .menu-section{
+        height: 60vh;
+    }
     .menu>h2, .menu-list>li>h2{
         font-size: 3rem;
     }
@@ -294,6 +299,12 @@ button:focus {
 }   
 
 @media screen and (min-width: 1024px){
+    .menu{
+        padding-bottom: 7rem;
+    }
+    .menu-section{
+        height: 80vh;
+    }
     .menu-list{
         margin-left: 6rem;
     }
@@ -312,7 +323,6 @@ button:focus {
 .services{
     background-color: var(--primary-color);
     color: white;
-    border: 1px solid black;
     padding: 2rem 0;
 }
 .services>h2{
@@ -412,10 +422,6 @@ button:focus {
 }   
 
 /* Contact*/ 
-.contact{
-    border: 1px solid var(--transparent-black75);
-}
-
 
 .contact>h2{
     text-align: center;
