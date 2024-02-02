@@ -181,7 +181,7 @@ button:focus {
     }
     .nav-link{
         font-size:1.8rem;
-        transition: background-color 1s ease;
+        transition: background-color .5s ease;
         border-radius: 10px;
         padding: .5rem;
     }
@@ -244,7 +244,7 @@ button:focus {
     .find-us{
         padding: .8rem 10rem;
         font-size: 2rem;
-        transition: background-color 1s ease;
+        transition: background-color .5s ease;
     }
     .find-us:hover{
         background-color: var(--secondary-color);
@@ -255,7 +255,8 @@ button:focus {
 /* Carte */ 
 .menu{
     border: 1px solid black;
-    padding: 3rem 0;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
 }
 .menu>h2, .menu-list>li>h2{
     text-align: center;
@@ -360,7 +361,7 @@ button:focus {
 }
 
 .services-list>li{
-    height: 12rem;
+    height: 11rem;
     width: 90%;
 }
 
@@ -377,7 +378,7 @@ button:focus {
 .services-list>li>p{
     width:100%;
     text-align: center;
-    line-height: 12rem;
+    line-height: 11rem;
     font-size: 1.2rem;
 }
 
@@ -467,6 +468,7 @@ button:focus {
 }
 .contact-list>li>p{
     color: var(--third-color);
+    font-size: 1.2rem;
 }
 
 .contact-container>img{
@@ -476,7 +478,7 @@ button:focus {
 
 @media screen and (min-width:520px) {
     .contact>h2{
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .contact-container{
         flex-direction: row;
