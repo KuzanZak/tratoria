@@ -1,0 +1,32 @@
+--------------------
+Sujet du TP
+--------------------
+
+Réalisé l'intégration de la tratoria San Pietro à partir de la maquette imposé
+Critères : HTML et CSS natif pas de framework
+Aucun besoin de Javascript pour ce TP
+
+--------------------
+Grille d'évaluation :
+--------------------
+
+la navbar est ok : 1pt
+La police ressemble : 1pt
+Les couleurs sont bonnes : 1pt
+Les images utilisés sont bien celles fournies dans les assets : 1pt
+La première section prends bien au moins une taille d'écran et ressemble à la maquette : 1pt
+La deuxième section prends bien au moins une taille d'écran et ressemble à la maquette : 1pt
+La troisième section prends bien au moins une taille d'écran et ressemble à la maquette : 1pt
+La quetirème section prends bien au moins une taille d'écran et ressemble à la maquette : 1pt
+Il y a au moins 2 effets de transitions/animation CSS : 2 pt
+Le responsive du site est propre (avec ou sans médias queries) : 2pt (1point presque, 1 point parfait)
+
+note multiplié par 20 et divisée par 12 pour note finale
+
+
+--------------------
+Modalités de rendu :
+--------------------
+
+Rendre le TP le 4 février à 23h59 maximum
+Rendre un fichier texte sur ypareo avec un lien vers le github de votre projet
