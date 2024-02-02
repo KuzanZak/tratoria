@@ -101,6 +101,11 @@ button:focus {
 .main{
     max-width: var(--container-width);
 }
+
+.main>section{
+    min-height: 70vh;
+}
+
 .container{
     width: 100%;
 }
@@ -235,6 +240,7 @@ button:focus {
     width: 60%;
     height: 60%;
     margin-bottom: .5rem;
+    object-fit: cover;
 }
 
 .menu-list>li{
@@ -340,6 +346,7 @@ button:focus {
     width: 100%;
     height: 100%;
     aspect-ratio: auto;
+    object-fit: cover;
 }
 
 .services-list>li>p{
@@ -439,8 +446,10 @@ button:focus {
 }
 
 .contact-container>img{
-    width: 70%;
+    width: 80%;
+    object-fit: cover;
     margin: 2rem 0;
+    object-fit: cover;
 }
 
 @media screen and (min-width:520px) {
